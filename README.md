@@ -28,7 +28,7 @@ This repository contains the foundational documents of SIM.
 | Vol. 1 | **[Meta-Observationalism](./docs/en/vol1-meta-observationalism.md)** | Philosophical foundation |
 | Vol. 2 | **[Reflexive Observation Principle](./docs/en/vol2-reflexive-observation-principle.md)** | Principle of observing both the subject and the act of observation |
 | Vol. 3 | **[Basics of SIM (Semantic Isolation Method)](./docs/en/vol3-basics-of-sim.md)** | Domain-independent semantic reasoning method |
-| Vol. 4 | **SIM Reasoning Guidelines for AI** | Guidance for applying SIM to AI reasoning |
+| Vol. 4 | **[SIM Reasoning Guidelines for AI](./docs/en/vol4-sim-reasoning-guidelines-for-ai.md)** | Guidance for applying SIM to AI reasoning |
 
 The English documents are canonical. Japanese documents are official translations. If a semantic difference is introduced through translation, the English version takes precedence until the difference is explicitly resolved.
 
