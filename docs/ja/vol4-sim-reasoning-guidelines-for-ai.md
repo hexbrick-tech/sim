@@ -175,19 +175,20 @@ Presented as known
 
 空白を埋められる能力は、その空白を埋めるべきだというEvidenceではありません。
 
-## 5. 不確実性の状態を区別する
+## 5. 不確実性とUndefinedを区別する
 
-AIはすべての不確実性を、単なる曖昧な躊躇へ平坦化すべきではありません。
+AIは異なるReasoning Stateを、単なる曖昧な躊躇や不完全さへ平坦化すべきではありません。
 
-SIMでは少なくとも次を区別します。
+SIMでは、不確実性の状態として少なくとも次を区別します。
 
 ```text
 Unknown
 Unresolved
 Ambiguous
 Conflicting
-Undefined
 ```
+
+さらにSIMは、何かが観測されているものの、現在のSemantic Structureへまだ配置できないという別の状態を **Undefined** として区別します。
 
 これらは異なるReasoning Behaviorを導きます。
 
@@ -210,9 +211,9 @@ Undefined
     何かが存在するが、現在のSemantic Structureへまだ配置できないことを観測する。
 ```
 
-Answerすることだけを最適化されたAIは、五つすべてを一つのもっともらしいConclusionへ収束させたくなるかもしれません。
+Answerすることだけを最適化されたAIは、これらの状態を一つのもっともらしいConclusionへ収束させたくなるかもしれません。
 
-SIMでは、保持されたStateそのものを有用なOutputとして扱います。
+SIMでは、保持された区別そのものを有用なOutputとして扱います。
 
 ## 6. Certaintyより先にQuestionを生成する
 
