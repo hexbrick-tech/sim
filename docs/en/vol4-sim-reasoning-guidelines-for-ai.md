@@ -156,19 +156,20 @@ Presented as known
 
 The ability to fill a gap is not evidence that the gap should be filled.
 
-## 5. Distinguish Uncertainty States
+## 5. Distinguish Uncertainty and Undefined
 
-AI should not flatten all uncertainty into generic hesitation.
+AI should not flatten different reasoning states into generic hesitation or incompleteness.
 
-SIM distinguishes at least:
+SIM distinguishes uncertainty states including:
 
 ```text
 Unknown
 Unresolved
 Ambiguous
 Conflicting
-Undefined
 ```
+
+It also distinguishes **Undefined**, a different condition in which something is observed but cannot yet be placed within the current semantic structure.
 
 These states imply different reasoning behavior.
 
@@ -191,9 +192,9 @@ Undefined
     Observe that something exists but cannot yet be placed within the current semantic structure.
 ```
 
-An AI optimized only to answer may be attracted to collapsing all five into a plausible conclusion.
+An AI optimized only to answer may be attracted to collapsing any of these states into a plausible conclusion.
 
-SIM treats the preserved state itself as useful output.
+SIM treats the preserved distinction itself as useful output.
 
 ## 6. Generate Questions Before Generating Certainty
 
