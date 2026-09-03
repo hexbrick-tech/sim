@@ -25,7 +25,7 @@ This repository contains the foundational documents of SIM.
 | Volume | Title | Role |
 | --- | --- | --- |
 | Prologue | **[Origin and Position of SIM](./docs/en/prologue.md)** | Why SIM exists and how the philosophy, principle, and method relate |
-| Vol. 1 | **Meta-Observationalism** | Philosophical foundation |
+| Vol. 1 | **[Meta-Observationalism](./docs/en/vol1-meta-observationalism.md)** | Philosophical foundation |
 | Vol. 2 | **Reflexive Observation Principle** | Principle of observing both the subject and the act of observation |
 | Vol. 3 | **Basics of SIM (Semantic Isolation Method)** | Domain-independent semantic reasoning method |
 | Vol. 4 | **SIM Reasoning Guidelines for AI** | Guidance for applying SIM to AI reasoning |
