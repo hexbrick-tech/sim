@@ -223,7 +223,7 @@ A useful Boundary Hypothesis should be capable of being challenged.
 
 If every possible observation can be explained by the hypothesis, it has little power to isolate meaning.
 
-The hypothesis should therefore suggest what would look different if the boundary were real.
+The hypothesis should therefore suggest what would look different if the hypothesized distinction materially affected meaning.
 
 ## 8. Semantic Probe
 
@@ -334,15 +334,15 @@ The boundary exists first as a distinction in meaning.
 
 This is a central constraint of SIM:
 
-> **Semantic boundaries should not be inferred from implementation boundaries merely because implementation boundaries already exist.**
+> **Semantic boundaries should not be inferred from existing structural boundaries merely because those boundaries already exist.**
 
 Existing structures are observations.
 
-They may reflect semantic boundaries accurately.
+Implementation boundaries, organizational boundaries, document structures, data entities, and workflows may reflect semantic boundaries accurately.
 
 They may combine several meanings.
 
-They may split one meaning across several components.
+They may split one meaning across several structures.
 
 They may preserve historical accidents.
 
@@ -613,7 +613,7 @@ The implementation may reveal a question.
 
 It does not answer that question merely by existing.
 
-This preserves the authority direction while allowing discovery to move in either direction.
+This preserves the distinction between observational value and semantic authority while allowing discovery to move in either direction.
 
 ## 19. Multiple Perspectives in SIM
 
@@ -701,7 +701,7 @@ Uncertainty may remain explicit.
 Meaning is not manufactured merely because it can be explained.
 Semantic authority remains located.
 Convergence must remain observable.
-Implementation is evidence before authority.
+Existing structure is evidence before semantic authority.
 ```
 
 This is the core of Semantic Isolation Method.
