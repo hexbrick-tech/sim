@@ -24,7 +24,7 @@ SIMは、AIのバイアスに対する問いから始まりました。知識、
 
 | 巻 | タイトル | 役割 |
 | --- | --- | --- |
-| Prologue | **SIMの起源と位置付け** | SIMがなぜ存在するのか、哲学・原理・方法がどのように関係するのかを示す |
+| Prologue | **[SIMの起源と位置付け](./docs/ja/prologue.md)** | SIMがなぜ存在するのか、哲学・原理・方法がどのように関係するのかを示す |
 | Vol. 1 | **Meta-Observationalism — メタ観測主義論** | 哲学的基盤 |
 | Vol. 2 | **Reflexive Observation Principle — 再起観測原理** | 対象と観測行為そのものをともに観測する原理 |
 | Vol. 3 | **Basics of SIM — 意味付分離法の基礎** | 分野に依存しない意味論的思考法 |
