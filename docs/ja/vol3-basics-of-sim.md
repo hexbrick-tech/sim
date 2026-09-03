@@ -224,7 +224,7 @@ Boundary Hypothesis:
 
 どのような観測でも説明できる仮説では、意味を分離する力がほとんどありません。
 
-したがって仮説は、その境界が本当に存在するなら何が異なって見えるはずかを示せることが望まれます。
+したがって仮説は、その仮説上の区別が意味へ実質的な影響を与えるなら、何が異なって見えるはずかを示せることが望まれます。
 
 ## 8. Semantic Probe — 意味探針
 
@@ -335,15 +335,15 @@ Semantic Boundaryは、必ずしもソフトウェア境界、組織境界、文
 
 これはSIMの中心的な制約です。
 
-> **実装境界がすでに存在するという理由だけで、実装境界から意味の境界を推定してはならない。**
+> **既存の構造境界がすでに存在するという理由だけで、その構造境界から意味の境界を推定してはならない。**
 
 既存の構造はObservationです。
 
-意味の境界を正確に反映しているかもしれません。
+実装境界、組織境界、文書構造、データEntity、ワークフローなどは、意味の境界を正確に反映しているかもしれません。
 
 複数の意味を一つにまとめているかもしれません。
 
-一つの意味を複数のComponentへ分割しているかもしれません。
+一つの意味を複数の構造へ分割しているかもしれません。
 
 歴史的な偶然を保持しているだけかもしれません。
 
@@ -615,7 +615,7 @@ Reverse Inquiryは、低位の構造へSemantic Authorityを与えません。
 
 しかし、実装が存在するという理由だけで、その問いへの答えになるわけではありません。
 
-これによってAuthorityの方向を保持しながら、Discoveryは双方向に進むことができます。
+これによってObservationとしての価値とSemantic Authorityの区別を保持しながら、Discoveryは双方向に進むことができます。
 
 ## 19. SIMにおける複数視点
 
@@ -719,8 +719,8 @@ Semantic authority remains located.
 Convergence must remain observable.
 収束は観測可能でなければならない。
 
-Implementation is evidence before authority.
-実装は権威である前にEvidenceである。
+Existing structure is evidence before semantic authority.
+既存の構造はSemantic Authorityである前にEvidenceである。
 ```
 
 これがSemantic Isolation Methodの中核です。
