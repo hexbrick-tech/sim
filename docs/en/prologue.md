@@ -102,22 +102,21 @@ SIM attempts to keep those distinctions observable long enough for semantic boun
 A typical movement of SIM reasoning can be expressed as:
 
 ```text
-Observation
-    ↓
-Difference
-    ↓
-Question
-    ↓
-Boundary Hypothesis
-    ↓
+Observe
+   ↓
+Detect Difference
+   ↓
+Generate Question
+   ↓
+Form Boundary Hypothesis
+   ↓
 Semantic Probe
-    ↓
-Re-observation
-    ↓
-Semantic Isolation
+   ↓
+Re-observe
+   ↺
 ```
 
-This is not intended as a mandatory linear workflow. Reasoning may move backward, repeat, branch, or remain unresolved.
+This is not intended as a mandatory linear workflow. Reasoning may move backward, repeat, branch, or remain unresolved. Semantic Isolation is not a terminal step in this cycle; it is the method by which relevant distinctions are kept observable through such reasoning.
 
 The important property is that meaning is not forced to converge before the distinctions relevant to that meaning have been observed.
 
