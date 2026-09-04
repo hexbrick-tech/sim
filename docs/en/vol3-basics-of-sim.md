@@ -412,6 +412,32 @@ Conflicting may require examination of perspective, authority, time, or scope.
 
 A method that converts all four into a single `missing` state loses information about what should happen next.
 
+### Unassigned and Meaning Handling
+
+An observed element may also be **Unassigned** when its semantic handling has not yet been decided.
+
+Unassigned is a temporary observation state. It is not a terminal semantic category, and it does not imply that a meaning must eventually be invented.
+
+A useful representation is:
+
+```text
+Unassigned
+    ↓
+Meaning Assigned
+or
+Meaning Not Required
+or
+Undefined
+```
+
+**Meaning Not Required** is a legitimate terminal handling: the inquiry has determined that assigning semantic meaning is not required for the current context.
+
+This differs from **Undefined**, which indicates that the current semantic structure does not yet explain where an observed element belongs and therefore normally directs the inquiry toward further observation.
+
+The **Right Not to Mean** is not another state in this model. It is a constraint on the observer: observable difference must not be forced to carry meaning merely because meaning can be constructed.
+
+Accordingly, resolution of Unassigned means deciding how meaning should be handled, not necessarily assigning meaning.
+
 ## 13. Undefined
 
 Some inquiries expose a different condition: something is present, but its semantic belonging cannot yet be explained.
