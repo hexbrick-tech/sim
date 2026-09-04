@@ -677,6 +677,8 @@ Their purpose is to keep AI useful without allowing usefulness itself to become 
 
 Several recurring AI behaviors are especially likely to violate SIM principles.
 
+These failure patterns are concrete AI-specific manifestations of **Semantic Leakage** as defined in Vol. 3 §15: meaning crosses a boundary without the crossing remaining observable.
+
 ```text
 Premature Convergence
     Collapsing alternatives before observing their differences.
