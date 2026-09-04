@@ -1,4 +1,4 @@
-[English](../en/prologue.md) | [READMEへ戻る](../../README.ja.md)
+[English](../en/prologue.md) | [READMEへ戻る](../../README.ja.md) | [Vol. 1](./vol1-meta-observationalism.md)
 
 # Prologue — SIMの起源と位置付け
 
