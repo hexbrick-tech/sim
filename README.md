@@ -30,6 +30,8 @@ This repository contains the foundational documents of SIM.
 | Vol. 3 | **[Basics of SIM (Semantic Isolation Method)](./docs/en/vol3-basics-of-sim.md)** | Domain-independent semantic reasoning method |
 | Vol. 4 | **[SIM Reasoning Guidelines for AI](./docs/en/vol4-sim-reasoning-guidelines-for-ai.md)** | Guidance for applying SIM to AI reasoning |
 
+Terminology, official translation mappings, and important concept contrasts are indexed in the **[Concept Index / Glossary](./GLOSSARY.md)**. The index does not replace definitions in the canonical volumes; it points back to their canonical locations.
+
 The English documents are canonical. Japanese documents are official translations. If a semantic difference is introduced through translation, the English version takes precedence until the difference is explicitly resolved.
 
 ## SIM and Applied Methods
@@ -38,7 +40,7 @@ SIM itself is not a software-development process, business-analysis technique, a
 
 Those may be derived as **Applied SIM** methods. They can introduce procedures, artifacts, roles, and domain-specific constraints while remaining grounded in the principles defined here.
 
-An Applied SIM work is a separate work that applies the canon; it is not, merely by being an application, a modified distribution of the canonical documents themselves. The NoDerivatives condition is therefore not intended to prohibit independently authored Applied SIM methods.
+Applied SIM is a separate work that applies this canon rather than, merely by being Applied SIM, a modified distribution of the canonical documents. The NoDerivatives condition is therefore not intended to prohibit independently written Applied SIM methods as such.
 
 AI-assisted development was the context in which SIM first emerged, but it does not define the scope of the method.
 
