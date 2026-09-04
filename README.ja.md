@@ -26,9 +26,11 @@ SIMは、AIのバイアスに対する問いから始まりました。知識、
 | --- | --- | --- |
 | Prologue | **[SIMの起源と位置付け](./docs/ja/prologue.md)** | SIMがなぜ存在するのか、哲学・原理・方法がどのように関係するのかを示す |
 | Vol. 1 | **[Meta-Observationalism — メタ観測主義論](./docs/ja/vol1-meta-observationalism.md)** | 哲学的基盤 |
-| Vol. 2 | **[Reflexive Observation Principle — 再起観測原理](./docs/ja/vol2-reflexive-observation-principle.md)** | 対象と観測行為そのものをともに観測する原理 |
+| Vol. 2 | **[Reflexive Observation Principle — 再帰観測原理](./docs/ja/vol2-reflexive-observation-principle.md)** | 対象と観測行為そのものをともに観測する原理 |
 | Vol. 3 | **[Basics of SIM — 意味付分離法の基礎](./docs/ja/vol3-basics-of-sim.md)** | 分野に依存しない意味論的思考法 |
 | Vol. 4 | **[SIM Reasoning Guidelines for AI — SIMによるAI思考ガイドライン](./docs/ja/vol4-sim-reasoning-guidelines-for-ai.md)** | SIMをAIの思考へ適用するための指針 |
+
+用語・翻訳対応・Concept間の対比は **[Concept Index / Glossary](./GLOSSARY.ja.md)** から参照できます。Glossaryは各巻の定義を置き換えるものではなく、Canonical locationへの索引として機能します。
 
 英語版を原典（Canonical）とし、日本語版を公式翻訳とします。翻訳によって意味上の差異が生じた場合、その差異が明示的に解決されるまでは英語版を優先します。
 
@@ -37,6 +39,8 @@ SIMは、AIのバイアスに対する問いから始まりました。知識、
 SIMそのものは、ソフトウェア開発プロセス、ビジネス分析技法、アーキテクチャ手法、AIワークフローではありません。
 
 それらは **Applied SIM（SIMの応用）** として派生させることができます。Applied SIMでは、この原典で定義された原理を基礎としながら、特定分野に必要な手順、成果物、役割、制約を導入できます。
+
+Applied SIMは、この原典を適用して独立に作られる別の著作物であり、Applied SIMであるという理由だけで原典文書の改変配布物になるものではありません。したがってNoDerivatives条項は、独立に記述されたApplied SIMの方法を作ること自体を禁止する意図ではありません。
 
 AI支援ソフトウェア開発はSIMが最初に生まれた文脈ですが、それがSIMという方法の適用範囲を定義するものではありません。
 

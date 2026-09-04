@@ -1,4 +1,4 @@
-[English](../en/prologue.md) | [READMEへ戻る](../../README.ja.md)
+[English](../en/prologue.md) | [READMEへ戻る](../../README.ja.md) | [Vol. 1](./vol1-meta-observationalism.md)
 
 # Prologue — SIMの起源と位置付け
 
@@ -68,9 +68,9 @@ SIMの哲学的基盤を **Meta-Observationalism（メタ観測主義論）** �
 
 メタ観測主義論については **Vol. 1** で詳しく扱います。
 
-## 4. 再起観測原理
+## 4. 再帰観測原理
 
-メタ観測主義論から、SIMは **Reflexive Observation Principle（再起観測原理）** を導きます。
+メタ観測主義論から、SIMは **Reflexive Observation Principle（再帰観測原理）** を導きます。
 
 この原理では、観測は再帰的であることを求めます。すなわち観測者は、その観測がどのような条件と行為によって生み出されたのかへ、観測を折り返すことができなければなりません。
 
@@ -87,7 +87,7 @@ SIMの哲学的基盤を **Meta-Observationalism（メタ観測主義論）** �
 
 目的は、**観測者を不可視にしないこと**です。
 
-再起観測原理については **Vol. 2** で詳しく扱います。
+再帰観測原理については **Vol. 2** で詳しく扱います。
 
 ## 5. 原理から方法へ
 
@@ -194,7 +194,7 @@ Applied SIM
 
 Philosophyは、観測をどのような立場から理解するかを説明します。
 
-Principleは、観測に求められる再起的な振る舞いを定義します。
+Principleは、観測に求められる再帰的な振る舞いを定義します。
 
 Methodは、意味の区別を保持し分離するための汎用的な方法を提供します。
 

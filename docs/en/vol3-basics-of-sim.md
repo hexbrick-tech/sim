@@ -75,6 +75,12 @@ This is not a mandatory workflow engine.
 
 It is a representation of a recurring reasoning pattern.
 
+In this section, the noun form names the reasoning states or artifacts exposed by the cycle.
+
+When an observation, difference, question, probe, or result becomes input to another observation cycle, SIM refers to this recurrence as **Recurrent Observation**.
+
+Recurrent Observation is distinct from Reflexive Observation. Recurrence means that observation occurs again through feedback or re-entry; reflexivity means that observation turns toward the observer or the conditions of observation.
+
 The cycle may begin from a single observation, a contradiction, an unknown, an unexpected result, a disagreement between observers, or a question already present in the inquiry.
 
 Steps may overlap.
@@ -410,6 +416,44 @@ Conflicting may require examination of perspective, authority, time, or scope.
 
 A method that converts all four into a single `missing` state loses information about what should happen next.
 
+### Observation State
+
+An individual Observation may be **Open** or **Closed**.
+
+An Open Observation is still in progress. Its semantic handling may remain Unassigned while the inquiry continues.
+
+A Closed Observation has reached a sufficient result for that Observation to stop.
+
+Closed does not mean Complete. It does not imply that the subject is fully understood, that the larger inquiry is complete, or that later Observation is prohibited.
+
+A result from a Closed Observation may later become input to another Observation. Closing one Observation therefore does not prevent Recurrent Observation.
+
+### Unassigned and Meaning Handling
+
+An observed element may be **Unassigned** when, within an Open Observation, its semantic handling has not yet been decided.
+
+Unassigned describes semantic handling within an Open Observation; it is not itself the Observation State, and it does not imply that a meaning must eventually be invented.
+
+A useful representation of possible results is:
+
+```text
+Unassigned
+    ↓
+Meaning Assigned
+or
+Meaning Not Required
+or
+Undefined
+```
+
+**Meaning Not Required** is a legitimate observation result: the inquiry has determined that assigning semantic meaning is not required for the current context.
+
+This differs from **Undefined**, which indicates that the current semantic structure does not yet explain where an observed element belongs and normally acts as a directional signal toward further observation.
+
+The **Right Not to Mean** is not another result in this representation. It is a constraint on the observer: observable difference must not be forced to carry meaning merely because meaning can be constructed.
+
+Accordingly, resolving Unassigned means deciding how meaning should be handled for that Observation, not necessarily assigning meaning.
+
 ## 13. Undefined
 
 Some inquiries expose a different condition: something is present, but its semantic belonging cannot yet be explained.
@@ -689,6 +733,8 @@ Probe
 Re-observe
    ↺
 ```
+
+Here the verb form describes the observer's operations over the same cognitive cycle introduced in Section 3.
 
 Around this cycle, SIM preserves several constraints:
 

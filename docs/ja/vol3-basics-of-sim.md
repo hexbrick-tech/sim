@@ -4,7 +4,7 @@
 
 ## 1. 原理から方法へ
 
-再起観測原理は、観測者が意味へ影響する可能性があるとき、観測がどのように振る舞うべきかを示しました。
+再帰観測原理は、観測者が意味へ影響する可能性があるとき、観測がどのように振る舞うべきかを示しました。
 
 差異、不確実性、視点、解釈、権威を、観測可能な区別として保持します。
 
@@ -74,6 +74,12 @@ Re-observation
 これは必須のワークフローエンジンではありません。
 
 繰り返し現れる思考パターンを表現したものです。
+
+この節では、名詞形によってこのサイクルが露出する推論上の状態または成果物を示します。
+
+Observation、Difference、Question、Probe、Resultなどが別のObservation CycleへのInputとなるとき、SIMではこの再起を **Recurrent Observation（再起観測）** と呼びます。
+
+Recurrent Observation（再起観測）はReflexive Observation（再帰観測）とは異なります。再起とはFeedbackやRe-entryによって観測が再び起こること、再帰とはObservationがObserverまたは観測条件へ折り返すことを指します。
 
 サイクルは、一つの観測、矛盾、Unknown、予想外の結果、観測者間の不一致、あるいは探究にすでに存在する問いから始まることがあります。
 
@@ -284,7 +290,7 @@ Probeの後、対象を再び観測します。
 
 観測者はすでに、以前には存在しなかった問いとBoundary Hypothesisを持っています。
 
-したがってSIMは、再観測そのものにも再起観測を適用します。
+したがってSIMは、再観測そのものにも再帰観測を適用します。
 
 ```text
 Earlier observation
@@ -410,6 +416,44 @@ Ambiguousなら、隠れた境界または文脈不足を示しているかも�
 Conflictingなら、視点、権威、時間、スコープを観測する必要があるかもしれません。
 
 四つすべてを単一の `missing` 状態へ変換する方法は、次に何をすべきかという情報を失います。
+
+### Observation State — 観測状態
+
+個々のObservationは **Open** または **Closed** として扱えます。
+
+OpenなObservationはまだ進行中です。探究が続く間、その意味の扱いはUnassignedのままでも構いません。
+
+ClosedなObservationは、そのObservationを止めるのに十分なResultへ到達しています。
+
+ClosedはCompleteを意味しません。対象を完全に理解したこと、探究全体が完了したこと、後から別のObservationが起きないことを意味しません。
+
+ClosedなObservationのResultは、後から別のObservationへのInputになり得ます。したがって一つのObservationをClosedにすることは、Recurrent Observation（再起観測）を妨げません。
+
+### Unassignedと意味の扱い
+
+OpenなObservationの中で、観測された要素の意味をどのように扱うかがまだ決定されていない場合、**Unassigned** として保持できます。
+
+UnassignedはOpenなObservation内における意味の扱いを表します。それ自体がObservation Stateではなく、最終的に何らかの意味を必ず作らなければならないことも意味しません。
+
+可能なObservation Resultを表す一つの形は次のとおりです。
+
+```text
+Unassigned
+    ↓
+Meaning Assigned
+or
+Meaning Not Required
+or
+Undefined
+```
+
+**Meaning Not Required（意味付与不要）** は正当なObservation Resultです。現在の文脈では意味を付与する必要がない、と探究が判断したことを表します。
+
+これは **Undefined** と異なります。Undefinedは、現在の意味構造では観測された要素がどこに属するのかまだ説明できず、通常はさらなるObservationの方向を示すSignalとして働きます。
+
+**The Right Not to Mean（意味を持たない自由）** は、この表現に追加される別のResultではありません。ObserverへのConstraintです。意味を構築できるという理由だけで、観測可能なDifferenceへ意味を強制してはならない、という原理です。
+
+したがってUnassignedの解決とは、そのObservationにおいて**意味をどのように扱うかを決定すること**であり、必ずしも意味を付与することではありません。
 
 ## 13. Undefined
 
@@ -691,6 +735,8 @@ Probe
 Re-observe
    ↺
 ```
+
+ここでは、動詞形によって§3で示した同一の思考サイクルに対するObserverの操作を示します。
 
 このCycleの周囲で、SIMはいくつかの制約を保持します。
 

@@ -1,4 +1,4 @@
-[日本語](../ja/prologue.md) | [Back to README](../../README.md)
+[日本語](../ja/prologue.md) | [Back to README](../../README.md) | [Vol. 1](./vol1-meta-observationalism.md)
 
 # Prologue — Origin and Position of SIM
 
