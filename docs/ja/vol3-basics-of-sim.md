@@ -77,6 +77,10 @@ Re-observation
 
 この節では、名詞形によってこのサイクルが露出する推論上の状態または成果物を示します。
 
+Observation、Difference、Question、Probe、Resultなどが別のObservation CycleへのInputとなるとき、SIMではこの再起を **Recurrent Observation（再起観測）** と呼びます。
+
+Recurrent Observation（再起観測）はReflexive Observation（再帰観測）とは異なります。再起とはFeedbackやRe-entryによって観測が再び起こること、再帰とはObservationがObserverまたは観測条件へ折り返すことを指します。
+
 サイクルは、一つの観測、矛盾、Unknown、予想外の結果、観測者間の不一致、あるいは探究にすでに存在する問いから始まることがあります。
 
 各段階は重なることがあります。
@@ -413,13 +417,25 @@ Conflictingなら、視点、権威、時間、スコープを観測する必要
 
 四つすべてを単一の `missing` 状態へ変換する方法は、次に何をすべきかという情報を失います。
 
+### Observation State — 観測状態
+
+個々のObservationは **Open** または **Closed** として扱えます。
+
+OpenなObservationはまだ進行中です。探究が続く間、その意味の扱いはUnassignedのままでも構いません。
+
+ClosedなObservationは、そのObservationを止めるのに十分なResultへ到達しています。
+
+ClosedはCompleteを意味しません。対象を完全に理解したこと、探究全体が完了したこと、後から別のObservationが起きないことを意味しません。
+
+ClosedなObservationのResultは、後から別のObservationへのInputになり得ます。したがって一つのObservationをClosedにすることは、Recurrent Observation（再起観測）を妨げません。
+
 ### Unassignedと意味の扱い
 
-観測された要素について、その意味をどのように扱うかがまだ決定されていない場合、**Unassigned** として保持できます。
+OpenなObservationの中で、観測された要素の意味をどのように扱うかがまだ決定されていない場合、**Unassigned** として保持できます。
 
-Unassignedは一時的な観測状態です。終端となる意味カテゴリではなく、最終的に何らかの意味を必ず作らなければならないことも意味しません。
+UnassignedはOpenなObservation内における意味の扱いを表します。それ自体がObservation Stateではなく、最終的に何らかの意味を必ず作らなければならないことも意味しません。
 
-有用な表現は次のとおりです。
+可能なObservation Resultを表す一つの形は次のとおりです。
 
 ```text
 Unassigned
@@ -431,13 +447,13 @@ or
 Undefined
 ```
 
-**Meaning Not Required** は正規の終端です。現在の文脈では意味を付与する必要がない、と探究が判断した状態です。
+**Meaning Not Required（意味付与不要）** は正当なObservation Resultです。現在の文脈では意味を付与する必要がない、と探究が判断したことを表します。
 
-これは **Undefined** と異なります。Undefinedは、現在の意味構造では観測された要素がどこに属するのかまだ説明できず、通常はさらなる観測へ探究を向けます。
+これは **Undefined** と異なります。Undefinedは、現在の意味構造では観測された要素がどこに属するのかまだ説明できず、通常はさらなるObservationの方向を示すSignalとして働きます。
 
-**The Right Not to Mean（意味を持たない自由）** は、この状態モデルに追加される別の状態ではありません。観測者への制約です。意味を構築できるという理由だけで、観測可能な差異へ意味を強制してはならない、という原理です。
+**The Right Not to Mean（意味を持たない自由）** は、この表現に追加される別のResultではありません。ObserverへのConstraintです。意味を構築できるという理由だけで、観測可能なDifferenceへ意味を強制してはならない、という原理です。
 
-したがってUnassignedの解決とは、必ずしも意味を付与することではなく、**意味をどのように扱うかを決定すること**です。
+したがってUnassignedの解決とは、そのObservationにおいて**意味をどのように扱うかを決定すること**であり、必ずしも意味を付与することではありません。
 
 ## 13. Undefined
 

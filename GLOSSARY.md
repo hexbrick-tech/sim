@@ -22,8 +22,12 @@ The English canon remains authoritative. Japanese terms listed here are the offi
 | Re-observation | 再観測 | Observation performed again after a question, hypothesis, probe, context change, or new evidence. | Re-observation may participate in recurrent or reflexive observation, but is not identical to either concept. | [Vol. 3 §9](./docs/en/vol3-basics-of-sim.md#9-re-observation) |
 | Semantic Boundary | 意味の境界 | A distinction stable and useful enough to prevent meanings from being incorrectly collapsed. | Not automatically identical to software, organizational, document, or data boundaries. | [Vol. 3 §10](./docs/en/vol3-basics-of-sim.md#10-semantic-boundary) |
 | Unknown | 未知 | Information required to determine meaning is not known. | Different from Undefined: Unknown concerns unavailable knowledge. | [Vol. 3 §12](./docs/en/vol3-basics-of-sim.md#12-unknown-unresolved-ambiguous-and-conflicting) |
-| Unassigned | 未割当 | An observed element whose semantic handling has not yet been decided. | Temporary, not terminal. Resolution means deciding how meaning is handled, not necessarily assigning meaning. | [Vol. 3 §12](./docs/en/vol3-basics-of-sim.md#unassigned-and-meaning-handling) |
-| Meaning Not Required | 意味付与不要 | A legitimate terminal handling in which assigning semantic meaning is determined not to be required for the current context. | Unlike Undefined, it does not normally direct inquiry toward further observation. | [Vol. 3 §12](./docs/en/vol3-basics-of-sim.md#unassigned-and-meaning-handling) |
+| Unresolved | 未解決 | Relevant observations exist, but the inquiry has not yet supported a sufficient conclusion. | Different from Unknown: information may exist while resolution is still insufficient. | [Vol. 3 §12](./docs/en/vol3-basics-of-sim.md#12-unknown-unresolved-ambiguous-and-conflicting) |
+| Ambiguous | 曖昧 | More than one meaning or interpretation remains plausible under the available observations. | Preserves multiple plausible interpretations rather than selecting one prematurely. | [Vol. 3 §12](./docs/en/vol3-basics-of-sim.md#12-unknown-unresolved-ambiguous-and-conflicting) |
+| Conflicting | 競合 | Observations, evidence, or authorities support incompatible positions that have not been reconciled. | Conflict preserves incompatible positions and their conditions rather than normalizing them. | [Vol. 3 §12](./docs/en/vol3-basics-of-sim.md#12-unknown-unresolved-ambiguous-and-conflicting) |
+| Observation State | 観測状態 | Whether an individual Observation is Open or Closed. | Closed means sufficient to stop that Observation; it does not mean Complete or prohibit later Observation. | [Vol. 3 §12](./docs/en/vol3-basics-of-sim.md#observation-state) |
+| Unassigned | — | Semantic handling of an observed element has not yet been decided within an Open Observation. | Not itself an Observation State. Resolution means deciding how meaning is handled, not necessarily assigning meaning. | [Vol. 3 §12](./docs/en/vol3-basics-of-sim.md#unassigned-and-meaning-handling) |
+| Meaning Not Required | 意味付与不要 | A legitimate observation result in which assigning semantic meaning is determined not to be required for the current context. | Different from Undefined; it does not assert that meaning can never become relevant in a later Observation. | [Vol. 3 §12](./docs/en/vol3-basics-of-sim.md#unassigned-and-meaning-handling) |
 | Undefined | 未定義 | Something is observed but cannot currently be placed within an established semantic structure. | Different from Unknown and Meaning Not Required. Undefined is a directional signal for further observation, not evidence of uselessness. | [Vol. 3 §13](./docs/en/vol3-basics-of-sim.md#13-undefined) |
 | Semantic Authority | 意味の権威 | The person, source, process, or context entitled to define meaning for the matter being considered. | Evidence may support an observation without having semantic authority. | [Vol. 3 §14](./docs/en/vol3-basics-of-sim.md#14-semantic-authority) |
 | Semantic Leakage | 意味漏出 | A transition in meaning across a boundary whose crossing becomes invisible. | The transition is not necessarily invalid; the failure is that it becomes silent. | [Vol. 3 §15](./docs/en/vol3-basics-of-sim.md#15-semantic-leakage) |
@@ -36,22 +40,29 @@ The English canon remains authoritative. Japanese terms listed here are the offi
 The following terms are intentionally distinct:
 
 ```text
+Observation State
+    Open  = the Observation is still in progress
+    Closed = the Observation has reached a sufficient result to stop
+    Closed ≠ Complete
+
 Unassigned
     semantic handling has not yet been decided
-    temporary observation state
+    within an Open Observation
 
-Meaning Not Required
-    semantic meaning is not required for the current context
-    legitimate terminal handling
+Meaning Not Required / 意味付与不要
+    assigning meaning is not required for the current context
+    legitimate observation result
 
-Undefined
+Undefined / 未定義
     current semantic structure cannot explain where the element belongs
-    normally directs inquiry toward further observation
+    normally acts as a directional signal toward further observation
 
-The Right Not to Mean
+The Right Not to Mean / 意味を持たない自由
     constraint on the observer
     meaning must not be forced merely because it can be constructed
 ```
+
+No fixed Japanese one-word mapping is assigned here to the methodological term **Unassigned**. Its definition is preserved explicitly to avoid collapsing it with the philosophical possibility of *unassigned meaning* in Vol. 1.
 
 ## Translation Boundary: Recurrent and Reflexive
 

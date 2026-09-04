@@ -696,7 +696,7 @@ Reasoning Constraintです。
 
 いくつかのAI Behaviorは、特にSIM Principleへ違反しやすい傾向があります。
 
-これらのFailure Patternは、Vol. 3 §15で定義した **Semantic Leakage**――意味が境界を越え、その越境が観測可能な状態に保たれないこと――がAIに具体化した形です。
+これらのFailure Patternは、Vol. 3 §15で定義した **Semantic Leakage** と密接に関係します。そのような傾向によって意味がBoundaryを越え、その越境が観測可能な状態に保たれなくなったとき、Semantic Leakageが発生しています。
 
 ```text
 Premature Convergence
