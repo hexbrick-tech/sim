@@ -38,6 +38,8 @@ SIM itself is not a software-development process, business-analysis technique, a
 
 Those may be derived as **Applied SIM** methods. They can introduce procedures, artifacts, roles, and domain-specific constraints while remaining grounded in the principles defined here.
 
+An Applied SIM work is a separate work that applies the canon; it is not, merely by being an application, a modified distribution of the canonical documents themselves. The NoDerivatives condition is therefore not intended to prohibit independently authored Applied SIM methods.
+
 AI-assisted development was the context in which SIM first emerged, but it does not define the scope of the method.
 
 ## Version 0
