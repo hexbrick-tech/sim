@@ -75,6 +75,8 @@ This is not a mandatory workflow engine.
 
 It is a representation of a recurring reasoning pattern.
 
+In this section, the noun form names the reasoning states or artifacts exposed by the cycle.
+
 The cycle may begin from a single observation, a contradiction, an unknown, an unexpected result, a disagreement between observers, or a question already present in the inquiry.
 
 Steps may overlap.
@@ -689,6 +691,8 @@ Probe
 Re-observe
    ↺
 ```
+
+Here the verb form describes the observer's operations over the same cognitive cycle introduced in Section 3.
 
 Around this cycle, SIM preserves several constraints:
 
