@@ -22,12 +22,36 @@
 | Re-observation | 再観測 | Question、Hypothesis、Probe、Context Change、新しいEvidenceなどの後に再び行われるObservation。 | Recurrent / Reflexive Observationに参加し得るが、どちらとも同一ではない。 | [Vol. 3 §9](./docs/ja/vol3-basics-of-sim.md#9-re-observation--再観測) |
 | Semantic Boundary | 意味の境界 | Meaningを誤って収束させないために保持する価値がある程度まで安定し有用になったDistinction。 | Software、Organization、Document、DataのBoundaryと自動的に同一ではない。 | [Vol. 3 §10](./docs/ja/vol3-basics-of-sim.md#10-semantic-boundary--意味の境界) |
 | Unknown | 未知 | Meaningを判断するために必要なInformationが分かっていない状態。 | Undefinedとは異なり、Unknownは知識の不足に関係する。 | [Vol. 3 §12](./docs/ja/vol3-basics-of-sim.md#12-unknown--unresolved--ambiguous--conflicting) |
-| Undefined | 未定義 | 何かは観測されているが、現在確立されたSemantic Structureの中へまだ配置できない状態。 | Unknownとは異なる。UndefinedはさらなるObservationの方向を示すSignalであり、不要である証拠ではない。 | [Vol. 3 §13](./docs/ja/vol3-basics-of-sim.md#13-undefined) |
+| Unassigned | 未割当 | 観測された要素について、その意味をどのように扱うかがまだ決定されていない一時的な観測状態。 | 終端ではない。解決とは意味を必ず付与することではなく、意味の扱いを決めること。 | [Vol. 3 §12](./docs/ja/vol3-basics-of-sim.md#unassignedと意味の扱い) |
+| Meaning Not Required | 意味付与不要 | 現在の文脈ではSemantic Meaningを付与する必要がないと判断された正規の終端。 | Undefinedとは異なり、通常はFurther Observationを要求しない。 | [Vol. 3 §12](./docs/ja/vol3-basics-of-sim.md#unassignedと意味の扱い) |
+| Undefined | 未定義 | 何かは観測されているが、現在確立されたSemantic Structureの中へまだ配置できない状態。 | UnknownおよびMeaning Not Requiredとは異なる。UndefinedはさらなるObservationの方向を示すSignalであり、不要である証拠ではない。 | [Vol. 3 §13](./docs/ja/vol3-basics-of-sim.md#13-undefined) |
 | Semantic Authority | 意味の権威 | 対象となるMeaningを定義する資格を持つ人、Source、Process、Context。 | EvidenceはObservationを支持してもSemantic Authorityを持たないことがある。 | [Vol. 3 §14](./docs/ja/vol3-basics-of-sim.md#14-semantic-authority--意味の権威) |
 | Semantic Leakage | 意味漏出 | MeaningがBoundaryを越え、その越境が不可視になった状態。 | Transitionそのものが必ず不正なのではなく、不可視になることが問題。 | [Vol. 3 §15](./docs/ja/vol3-basics-of-sim.md#15-semantic-leakage--意味漏出) |
 | Reverse Inquiry | 逆向探究 | Lower-level ObservationがHigher-level MeaningへのQuestionを露出すること。 | Lower-level Realizationが得るのはObservationとしての価値であり、Semantic Authorityではない。 | [Vol. 3 §18](./docs/ja/vol3-basics-of-sim.md#18-reverse-inquiry--逆向探究) |
-| The Right Not to Mean | 意味を持たない自由 | ObserverがInterpretationを構築できるというだけで、観測可能なDifferenceへAssigned Semantic Meaningを要求しない原理。 | ここでの `Right` は主として法的権利を意味しない。日本語では強制的な意味付与からの自由を強調するため `自由` とする。 | [Vol. 1 §8](./docs/ja/vol1-meta-observationalism.md#8-意味を持たない自由) |
+| The Right Not to Mean | 意味を持たない自由 | ObserverがInterpretationを構築できるというだけで、観測可能なDifferenceへAssigned Semantic Meaningを要求しない原理。 | ObserverへのConstraintでありReasoning Stateではない。ここでの `Right` は主として法的権利を意味しない。 | [Vol. 1 §8](./docs/ja/vol1-meta-observationalism.md#8-意味を持たない自由) |
 | Applied SIM | SIMの応用 | SIM原典を具体的なProcedure、Artifact、Role、Constraintへ適用した独立したDomain-specific Work / Method。 | Applied SIMは基礎原典そのものではなく、Applied SIMであるという理由だけで原典文書の改変配布物になるものでもない。 | [Prologue §7](./docs/ja/prologue.md#7-simとapplied-sim) |
+
+## 意味の扱いに関する境界
+
+次の語は意図的に異なるConceptです。
+
+```text
+Unassigned / 未割当
+    意味の扱いがまだ決定されていない
+    一時的なObservation State
+
+Meaning Not Required / 意味付与不要
+    現在の文脈ではMeaningを付与する必要がない
+    正規の終端
+
+Undefined / 未定義
+    現在のSemantic Structureでは所属を説明できない
+    通常はFurther Observationへ探究を向ける
+
+The Right Not to Mean / 意味を持たない自由
+    ObserverへのConstraint
+    構築可能という理由だけでMeaningを強制しない
+```
 
 ## 翻訳上の境界: Recurrent と Reflexive
 
