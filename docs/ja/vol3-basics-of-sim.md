@@ -232,7 +232,37 @@ Boundary Hypothesis:
 
 したがって仮説は、その仮説上の区別が意味へ実質的な影響を与えるなら、何が異なって見えるはずかを示せることが望まれます。
 
-## 8. Semantic Probe — 意味探針
+## 8. Observability in Method — 方法における観測可能性
+
+SIMは、方法論上の条件として観測可能性を二つの関連した仕方で用います。
+
+### Preserved Observability — 保持された観測可能性
+
+推論に関係する区別、遷移、基盤、条件、その他の要素は、推論が進行している間も**観測可能な状態に保たれる**必要がある場合があります。
+
+Preserved Observabilityとは、推論がその要素、またはその要素に関わるDifferenceを区別する能力を暗黙に取り除かないことを意味します。
+
+これは、Interpretation、Evaluation、Resolution、またはConvergenceが起きるときにも維持されうる条件です。
+
+### Produced Observability — 生成された観測可能性
+
+区別、帰結、遷移、あるいは推論上の選択は、現在の観測条件の下では当初は観測可能ではないことがあります。
+
+Question、Probe、Isolation Step、または他の推論操作が、それを**観測可能にする**、またはそれが**観測可能になる**ことを可能にする場合があります。
+
+Produced Observabilityは、当該条件下で何が観測可能になるかの変化を記述します。結果として得られるDifferenceがInterpretation、Evaluation、または意味付与を受ける必要はありません。
+
+### Scope — 範囲
+
+これらの方法論上の用法は、Vol. 1で確立されたMeta-Observationalismを再定義するものではありません。
+
+観測の関係が観測そのものへ向かうとき — Observation、Observer、または観測に関わる影響や条件を含む場合 — その用法は、ここで導入される別個の方法論上のカテゴリではなく、Vol. 1で確立されたMeta-Observationalismに属します。
+
+観測可能性は、それ自体で、推論経路の完全な再構成、観測されたDifferenceの解釈、またはそのDifferenceの分類を要求しません。
+
+この節では、何かが観測可能でなければならないObserverやAddresseeを規定しません。そうした視点を特定する必要がある場合、その所在はここでは定義しません。
+
+## 9. Semantic Probe — 意味探針
 
 Semantic Probeは、疑われる意味上の区別を観測可能にするための、制御された変化です。
 
@@ -282,7 +312,7 @@ Unknownを露出するかもしれません。
 
 **意味上の帰結を観測可能にすること**が目的です。
 
-## 9. Re-observation — 再観測
+## 10. Re-observation — 再観測
 
 Probeの後、対象を再び観測します。
 
@@ -316,7 +346,7 @@ Re-observation
 
 これによって、SIMという方法自身が、発見したと主張する意味を暗黙に作り出すことを防ぎます。
 
-## 10. Semantic Boundary — 意味の境界
+## 11. Semantic Boundary — 意味の境界
 
 Semantic Boundaryとは、意味を誤って収束させないために保持する価値がある程度まで、安定し有用になった区別です。
 
@@ -355,7 +385,7 @@ Semantic Boundaryは、必ずしもソフトウェア境界、組織境界、文
 
 SIMはそれらを観測しますが、自動的な意味の権威は与えません。
 
-## 11. Boundary Stability — 境界の安定性
+## 12. Boundary Stability — 境界の安定性
 
 Boundary Hypothesisは、重要な差異を消すことなく関連する観測を説明できるようになったとき、Semantic Boundaryとして有用になります。
 
@@ -380,7 +410,7 @@ SIMは意味的真実のスコアリングシステムではありません。
 
 Stabilityは、その区別が探究の中でどれだけ持続して成立しているかについての観測です。
 
-## 12. Unknown / Unresolved / Ambiguous / Conflicting
+## 13. Unknown / Unresolved / Ambiguous / Conflicting
 
 SIMは、不確実性を構造化された思考状態として保持します。
 
@@ -455,7 +485,7 @@ Undefined
 
 したがってUnassignedの解決とは、そのObservationにおいて**意味をどのように扱うかを決定すること**であり、必ずしも意味を付与することではありません。
 
-## 13. Undefined
+## 14. Undefined
 
 探究によっては、別の状態が露出します。何かは存在しているが、その意味上の所属をまだ説明できない状態です。
 
@@ -496,7 +526,7 @@ Undefinedは、その要素が不要である証拠ではありません。
 
 適切な応答は、自動的な削除ではなく、さらなる観測です。
 
-## 14. Semantic Authority — 意味の権威
+## 15. Semantic Authority — 意味の権威
 
 SIMはEvidenceとAuthorityを区別します。
 
@@ -530,7 +560,7 @@ Semantic Authorityが存在しない、不明、分散している、あるい�
 
 他のAuthorityが見えないという理由だけで、観測者がAuthorityを継承することはありません。
 
-## 15. Semantic Leakage — 意味漏出
+## 16. Semantic Leakage — 意味漏出
 
 Semantic Leakageは、意味が境界を越え、その越境が観測可能な状態に保たれなかったときに発生します。
 
@@ -563,7 +593,7 @@ Semantic Leakageが発生するのは、**その遷移が不可視なとき**で
 
 不可視の遷移は、どのようにそこへ入ったかを保持しないまま対象の一部になります。
 
-## 16. 意味付分離は永久的な分離ではない
+## 17. 意味付分離は永久的な分離ではない
 
 Isolationは一時的で、目的を持ったものです。
 
@@ -603,7 +633,7 @@ SIMは分離を統一より好むわけではありません。
 
 **不可視の収束より、観測可能な収束を選びます。**
 
-## 17. 意味付分離は完全性を要求しない
+## 18. 意味付分離は完全性を要求しない
 
 SIMを始める前に、意味モデルが完全である必要はありません。
 
@@ -627,7 +657,7 @@ SIMは局所的に進められます。
 
 SIMそのものの前提条件ではありません。
 
-## 18. Reverse Inquiry — 逆向探究
+## 19. Reverse Inquiry — 逆向探究
 
 思考は、抽象的な意味から具体的な実現へ向かう方向だけに進むとは限りません。
 
@@ -661,7 +691,7 @@ Reverse Inquiryは、低位の構造へSemantic Authorityを与えません。
 
 これによってObservationとしての価値とSemantic Authorityの区別を保持しながら、Discoveryは双方向に進むことができます。
 
-## 19. SIMにおける複数視点
+## 20. SIMにおける複数視点
 
 複数の視点は、隠れた境界が観測可能になる可能性を高めます。
 
@@ -687,7 +717,7 @@ Consensusが後から有用になることはあります。
 
 多数決によってSemantic Boundaryを存在させるわけではありません。
 
-## 20. ObservationとEvaluation
+## 21. ObservationとEvaluation
 
 SIMがObservationとEvaluationを分離するのは、両者が異なる問いに答えるからです。
 
@@ -717,7 +747,7 @@ Evaluation自体がObservation Sourceとなり、新しいCycleを起動する�
 
 重要なのは、EvaluationがObservationを書き換えたことを不可視にしないことです。
 
-## 21. Thinking Core — 思考中核
+## 22. Thinking Core — 思考中核
 
 分野に依存しないSIMのThinking Coreは、次のように要約できます。
 
@@ -787,7 +817,7 @@ ToolによってObservationやProbeの一部を自動化できます。
 
 それらはThinking Coreの応用です。
 
-## 22. SIMが定義しないもの
+## 23. SIMが定義しないもの
 
 SIMは次のものを定義しません。
 
@@ -812,7 +842,7 @@ Software Architectureは初期の応用です。
 
 どちらもSIMという方法の定義ではありません。
 
-## 23. 方法から応用へ
+## 24. 方法から応用へ
 
 SIMは、そのThinking CoreがDomain固有のObservation Source、Authority、Probe、Decisionへ接続されたとき、そのDomainで利用可能になります。
 
