@@ -54,8 +54,12 @@ Historically, applied forms of SIM appeared before this foundation was explicitl
 
 ## License
 
+Copyright © 2026 HEXBRICK.tech.
+
 The documents in this repository are licensed under the **Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)** license.
 
 You may share and cite these documents with appropriate attribution. Modified versions may not be distributed under the terms of this license.
 
 See [LICENSE](./LICENSE) for details.
+
+**Canonical source:** [https://github.com/hexbrick-tech/sim](https://github.com/hexbrick-tech/sim)

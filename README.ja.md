@@ -54,8 +54,12 @@ Version 0は、予備版、不安定版、未完成版という意味ではあ�
 
 ## ライセンス
 
+Copyright © 2026 HEXBRICK.tech.
+
 このリポジトリの文書は **Creative Commons Attribution-NoDerivatives 4.0 International（CC BY-ND 4.0）** の下で提供します。
 
 適切な帰属表示を行うことで、これらの文書を共有・引用できます。このライセンスの下では、改変した版を配布することはできません。
 
 詳細は [LICENSE](./LICENSE) を参照してください。
+
+**参照元（Canonical）:** [https://github.com/hexbrick-tech/sim](https://github.com/hexbrick-tech/sim)
