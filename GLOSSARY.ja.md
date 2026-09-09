@@ -18,6 +18,8 @@
 | Observation | 観測 | 対象そのものへ不可視に置き換わらないための文脈とともに、探究で利用可能になった対象の表現。 | Interpretation、Evaluationと区別する。 | [Vol. 3 §4](./docs/ja/vol3-basics-of-sim.md#4-observation--観測) |
 | Difference | 差異 | ErrorやMeaningへ分類される前に観測される、SIMの主要なSignal。 | 差異は誤りである前に情報である。 | [Vol. 3 §5](./docs/ja/vol3-basics-of-sim.md#5-difference--差異) |
 | Boundary Hypothesis | 境界仮説 | Semantic Distinctionが存在する可能性についての暫定的な仮説。 | まだDefinition、Conclusion、Semantic Authorityではない。 | [Vol. 3 §7](./docs/ja/vol3-basics-of-sim.md#7-boundary-hypothesis--境界仮説) |
+| Preserved Observability | 保持された観測可能性 | 推論に関係する区別、遷移、基盤、条件、その他の要素が、推論が進行している間も観測可能な状態に保たれる必要がある場合の方法論上の条件。 | 推論が、その要素、またはその要素に関わるDifferenceを区別する能力を暗黙に取り除かない。 | [Vol. 3 §8](./docs/ja/vol3-basics-of-sim.md#8-observability-in-method--方法における観測可能性) |
+| Produced Observability | 生成された観測可能性 | Question、Probe、Isolation Step、または他の推論操作が、区別、帰結、遷移、あるいは推論上の選択を観測可能にする、または観測可能になることを可能にするときの、何が観測可能になるかの変化。 | 結果として得られるDifferenceがInterpretation、Evaluation、または意味付与を受ける必要はない。 | [Vol. 3 §8](./docs/ja/vol3-basics-of-sim.md#8-observability-in-method--方法における観測可能性) |
 | Semantic Probe | 意味探針 | 疑われるSemantic Distinctionの帰結を観測可能にするためのControlled Variation。 | HypothesisをChallengeするものであり、通過させるためのConfirmationではない。 | [Vol. 3 §9](./docs/ja/vol3-basics-of-sim.md#9-semantic-probe--意味探針) |
 | Re-observation | 再観測 | Question、Hypothesis、Probe、Context Change、新しいEvidenceなどの後に再び行われるObservation。 | Recurrent / Reflexive Observationに参加し得るが、どちらとも同一ではない。 | [Vol. 3 §10](./docs/ja/vol3-basics-of-sim.md#10-re-observation--再観測) |
 | Semantic Boundary | 意味の境界 | Meaningを誤って収束させないために保持する価値がある程度まで安定し有用になったDistinction。 | Software、Organization、Document、DataのBoundaryと自動的に同一ではない。 | [Vol. 3 §11](./docs/ja/vol3-basics-of-sim.md#11-semantic-boundary--意味の境界) |
