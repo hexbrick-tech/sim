@@ -152,6 +152,8 @@ Applied SIM may define concrete workflows, artifacts, roles, prompts, checkpoint
 
 This distinction is important because SIM historically appeared first through applied forms, particularly in AI-assisted software development.
 
+SIM itself was identified afterward, by observing recurring semantic reasoning across those applied forms and isolating what was generic among them. [§8](#8-why-version-0) describes this abstraction process in more detail.
+
 The applications came first in time.
 
 The foundation came first in logic.
