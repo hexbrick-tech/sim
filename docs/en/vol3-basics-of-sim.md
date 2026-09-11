@@ -111,6 +111,8 @@ Observation sources may include:
 - AI-generated observations,
 - or previous observations preserved from another context.
 
+These sources may be qualitative or quantitative.
+
 SIM does not assign universal authority to any source type.
 
 An implementation may be authoritative about what currently happens while remaining silent about why it should happen.
