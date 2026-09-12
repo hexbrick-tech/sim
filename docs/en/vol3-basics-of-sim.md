@@ -265,7 +265,7 @@ This section does not specify an observer or addressee for whom something must b
 
 ## 9. Semantic Probe
 
-A Semantic Probe is a controlled variation used to test whether a suspected semantic distinction becomes observable.
+A Semantic Probe is a controlled variation used to make the consequences of a suspected semantic distinction observable.
 
 A probe does not prove a meaning.
 

@@ -266,7 +266,7 @@ Produced Observabilityは、当該条件下で何が観測可能になるかの�
 
 ## 9. Semantic Probe — 意味探針
 
-Semantic Probeは、疑われる意味上の区別を観測可能にするための、制御された変化です。
+Semantic Probeは、疑われる意味上の区別の帰結を観測可能にするための、制御された変化です。
 
 Probeは意味を証明するものではありません。
 
