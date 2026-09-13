@@ -692,11 +692,11 @@ Reasoning Constraintです。
 
 目的はAIを有用なままにしながら、**有用性そのものが不可視のSemantic Authorityになることを防ぐこと**です。
 
-## 22. Failure Patterns
+## 22. Reasoning Tendencies
 
 いくつかのAI Behaviorは、特にSIM Principleへ違反しやすい傾向があります。
 
-これらのFailure Patternは、Vol. 3 §16で定義した **Semantic Leakage** と密接に関係します。そのような傾向によって意味がBoundaryを越え、その越境が観測可能な状態に保たれなくなったとき、Semantic Leakageが発生しています。
+これらのReasoning Tendenciesは、Vol. 3 §16で定義した **Semantic Leakage** と密接に関係します。そのような傾向によって意味がBoundaryを越え、その越境が観測可能な状態に保たれなくなったとき、Semantic Leakageが発生しています。
 
 ```text
 Premature Convergence

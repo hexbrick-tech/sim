@@ -673,11 +673,11 @@ They are reasoning constraints.
 
 Their purpose is to keep AI useful without allowing usefulness itself to become invisible semantic authority.
 
-## 22. Failure Patterns
+## 22. Reasoning Tendencies
 
 Several recurring AI behaviors are especially likely to violate SIM principles.
 
-These failure patterns are closely related to **Semantic Leakage** as defined in Vol. 3 §16. When such a tendency causes meaning to cross a boundary without that crossing remaining observable, Semantic Leakage has occurred.
+These reasoning tendencies are closely related to **Semantic Leakage** as defined in Vol. 3 §16. When such a tendency causes meaning to cross a boundary without that crossing remaining observable, Semantic Leakage has occurred.
 
 ```text
 Premature Convergence
