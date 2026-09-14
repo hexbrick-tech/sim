@@ -249,7 +249,9 @@ This is distinct from *Unknown*.
 
 Unknown means that a relevant meaning may exist but is not known.
 
-Unassigned meaning means that, within the observed context, no semantic intention has been assigned.
+Meaning may remain unassigned: within the observed context, no semantic intention may have been assigned.
+
+Here, unassigned meaning names a philosophical possibility, not the methodological `Unassigned` handling introduced later in SIM.
 
 The distinction itself may later require examination. The important philosophical constraint is that the observer must not create semantic authority merely by being capable of explanation.
 

@@ -1,4 +1,4 @@
-[日本語](../ja/prologue.md) | [Back to README](../../README.md)
+[日本語](../ja/prologue.md) | [Back to README](../../README.md) | [Vol. 1](./vol1-meta-observationalism.md)
 
 # Prologue — Origin and Position of SIM
 
@@ -151,6 +151,8 @@ Domain-specific methods may be derived from it. These are referred to as **Appli
 Applied SIM may define concrete workflows, artifacts, roles, prompts, checkpoints, or domain-specific rules. Such applications are useful, but they should not be confused with the foundational method from which they are derived.
 
 This distinction is important because SIM historically appeared first through applied forms, particularly in AI-assisted software development.
+
+SIM itself was identified afterward, by observing recurring semantic reasoning across those applied forms and isolating what was generic among them. [§8](#8-why-version-0) describes this abstraction process in more detail.
 
 The applications came first in time.
 
